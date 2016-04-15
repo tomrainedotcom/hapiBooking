@@ -1,0 +1,32 @@
+{
+  "name": "hapibooking",
+  "version": "1.0.0",
+  "description": "A ticket booking application that allows users to view events, select a ticket type, and make a purchase via paypal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomrainedotcom/hapiBooking.git"
+  },
+  "keywords": [
+    "Booking",
+    "hapijs",
+    "MySQL"
+  ],
+  "author": "tomrainedotcom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomrainedotcom/hapiBooking/issues"
+  },
+  "homepage": "https://github.com/tomrainedotcom/hapiBooking#readme",
+  "dependencies": {
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "hapi": "^13.3.0",
+    "hapi-auth-jwt": "^4.0.0",
+    "inert": "^3.2.0",
+    "jsonwebtoken": "^5.7.0"
+  }
+}
